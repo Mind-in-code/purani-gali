@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="goldC2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="goldFadeC2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="25%" stop-color="#C9A84C"/>
+      <stop offset="75%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="dropFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#C9A84C" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0.12"/>
+    </linearGradient>
+    <radialGradient id="coreGlow2" cx="50%" cy="70%" r="35%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0B0B0F"/>
+
+  <!--
+    VARIATION: The outer drop has a subtle gold fill that pools
+    at the bottom — like actual oil settling in a vessel.
+    The inner layers cut through as negative space, creating
+    a sense of depth. Feels more tangible and premium.
+  -->
+
+  <!-- Outer drop — with subtle pooling fill -->
+  <path d="M 200 90
+           C 195 110 168 155 158 190
+           C 148 228 150 260 162 282
+           C 174 305 190 315 200 318
+           C 210 315 226 305 238 282
+           C 250 260 252 228 242 190
+           C 232 155 205 110 200 90 Z"
+        fill="url(#dropFill)" stroke="url(#goldC2)" stroke-width="1.8"/>
+
+  <!-- Middle drop — cut as a lighter space -->
+  <path d="M 200 138
+           C 197 152 180 180 175 205
+           C 170 230 172 252 180 266
+           C 188 280 196 285 200 287
+           C 204 285 212 280 220 266
+           C 228 252 230 230 225 205
+           C 220 180 203 152 200 138 Z"
+        fill="none" stroke="url(#goldC2)" stroke-width="1"/>
+
+  <!-- Inner drop -->
+  <path d="M 200 182
+           C 198 190 190 208 187 222
+           C 184 236 186 248 191 256
+           C 195 262 198 264 200 265
+           C 202 264 205 262 209 256
+           C 214 248 216 236 213 222
+           C 210 208 202 190 200 182 Z"
+        fill="none" stroke="#C9A84C" stroke-width="0.6" opacity="0.4"/>
+
+  <!-- Core glow — the oil pooling at the heart -->
+  <ellipse cx="200" cy="245" rx="8" ry="12" fill="url(#coreGlow2)"/>
+  <circle cx="200" cy="245" r="2.5" fill="#C9A84C" opacity="0.5"/>
+
+  <!-- ===== Brand name ===== -->
+  <line x1="140" y1="348" x2="260" y2="348" stroke="url(#goldFadeC2)" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="200" y="380" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+  <text x="200" y="413" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="300" letter-spacing="10" fill="url(#goldC2)">GALI</text>
+
+  <line x1="140" y1="430" x2="260" y2="430" stroke="url(#goldFadeC2)" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="200" y="458" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.5">PURE ESSENCE ATTAR</text>
+</svg>

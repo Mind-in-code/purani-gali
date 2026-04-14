@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="goldC3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="goldC3r" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#A8893A" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="goldFadeC3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="25%" stop-color="#C9A84C"/>
+      <stop offset="75%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <radialGradient id="coreGlow3" cx="50%" cy="55%" r="40%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0B0B0F"/>
+
+  <!--
+    VARIATION: Bolder, more confident version. Thicker outer stroke.
+    The inner two layers are offset slightly to the right — like
+    light refracting through oil, giving a sense of depth and
+    movement. The drop feels alive, not static.
+  -->
+
+  <!-- Ambient glow -->
+  <circle cx="202" cy="200" r="95" fill="url(#coreGlow3)"/>
+
+  <!-- Outer drop — bold, confident -->
+  <path d="M 200 88
+           C 195 108 166 155 156 192
+           C 146 232 148 262 162 285
+           C 176 308 192 318 200 320
+           C 208 318 224 308 238 285
+           C 252 262 254 232 244 192
+           C 234 155 205 108 200 88 Z"
+        fill="none" stroke="url(#goldC3)" stroke-width="2.2"/>
+
+  <!-- Middle drop — shifted 3px right (light refraction) -->
+  <path d="M 203 140
+           C 200 154 184 182 179 207
+           C 174 232 176 254 184 268
+           C 192 282 200 287 203 289
+           C 206 287 214 282 222 268
+           C 230 254 232 232 227 207
+           C 222 182 206 154 203 140 Z"
+        fill="none" stroke="url(#goldC3r)" stroke-width="1.2"/>
+
+  <!-- Inner drop — shifted 5px right -->
+  <path d="M 205 186
+           C 203 194 196 210 193 224
+           C 190 238 192 250 197 258
+           C 200 263 203 265 205 266
+           C 207 265 210 263 213 258
+           C 218 250 220 238 217 224
+           C 214 210 207 194 205 186 Z"
+        fill="none" stroke="#C9A84C" stroke-width="0.7" opacity="0.45"/>
+
+  <!-- Core -->
+  <circle cx="205" cy="240" r="3" fill="#C9A84C" opacity="0.45"/>
+  <circle cx="205" cy="240" r="1.2" fill="#D4B85C" opacity="0.7"/>
+
+  <!-- ===== Brand name ===== -->
+  <line x1="140" y1="350" x2="260" y2="350" stroke="url(#goldFadeC3)" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="200" y="382" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+  <text x="200" y="415" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="300" letter-spacing="10" fill="url(#goldC3)">GALI</text>
+
+  <line x1="140" y1="432" x2="260" y2="432" stroke="url(#goldFadeC3)" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="200" y="460" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.5">PURE ESSENCE ATTAR</text>
+</svg>

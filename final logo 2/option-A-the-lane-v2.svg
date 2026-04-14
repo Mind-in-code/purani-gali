@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="goldA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="goldFadeA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="25%" stop-color="#C9A84C"/>
+      <stop offset="75%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="lightGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#C9A84C" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Golden light spill from archway -->
+  <path d="M 190 148 L 160 300 L 240 300 L 210 148 Z" fill="url(#lightGlow)"/>
+
+  <!-- Left wall -->
+  <line x1="145" y1="300" x2="190" y2="118" stroke="#C9A84C" stroke-width="1.5"/>
+  <!-- Right wall -->
+  <line x1="255" y1="300" x2="210" y2="118" stroke="#C9A84C" stroke-width="1.5"/>
+
+  <!-- Arched doorway: straight sides + rounded top arc -->
+  <!-- Left jamb -->
+  <line x1="190" y1="178" x2="190" y2="118" stroke="#C9A84C" stroke-width="1.2"/>
+  <!-- Right jamb -->
+  <line x1="210" y1="178" x2="210" y2="118" stroke="#C9A84C" stroke-width="1.2"/>
+  <!-- Bottom sill -->
+  <line x1="190" y1="178" x2="210" y2="178" stroke="#C9A84C" stroke-width="1.2"/>
+  <!-- Arch: semicircle over the doorway top -->
+  <path d="M 190 118 A 10 10 0 0 1 210 118" fill="none" stroke="#C9A84C" stroke-width="1.2"/>
+
+  <!-- Warm glow dot inside arch -->
+  <circle cx="200" cy="145" r="2.5" fill="#D4B85C" opacity="0.75"/>
+  <!-- Soft halo ring around glow -->
+  <circle cx="200" cy="145" r="5" fill="none" stroke="#D4B85C" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Ground line -->
+  <line x1="145" y1="300" x2="255" y2="300" stroke="#C9A84C" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- Subtle cobblestone hint — three faint horizontal lines on ground -->
+  <line x1="158" y1="315" x2="242" y2="315" stroke="#C9A84C" stroke-width="0.4" opacity="0.1"/>
+  <line x1="153" y1="328" x2="247" y2="328" stroke="#C9A84C" stroke-width="0.4" opacity="0.07"/>
+
+  <!-- Brand name -->
+  <line x1="130" y1="355" x2="270" y2="355" stroke="#C9A84C" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="390" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="30" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+
+  <text x="200" y="424" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="28" font-weight="300" letter-spacing="10" fill="#C9A84C">GALI</text>
+
+  <line x1="130" y1="440" x2="270" y2="440" stroke="#C9A84C" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="468" text-anchor="middle"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="8" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.55">CRAFTED ATTAR</text>
+
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="gk3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="gkh3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="20%" stop-color="#C9A84C"/>
+      <stop offset="80%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <radialGradient id="kg3" cx="50%" cy="30%" r="35%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0B0B0F"/>
+
+  <!-- Glow -->
+  <circle cx="200" cy="130" r="100" fill="url(#kg3)"/>
+
+  <!-- Key Head — large circle -->
+  <circle cx="200" cy="120" r="65" fill="none" stroke="url(#gk3)" stroke-width="2.5"/>
+  <circle cx="200" cy="120" r="55" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- 4 petals inside key head -->
+  <path d="M 200 75 Q 215 95 200 112 Q 185 95 200 75"
+        fill="none" stroke="url(#gk3)" stroke-width="1.5"/>
+  <path d="M 245 120 Q 225 135 208 120 Q 225 105 245 120"
+        fill="none" stroke="url(#gk3)" stroke-width="1.5"/>
+  <path d="M 200 165 Q 185 145 200 128 Q 215 145 200 165"
+        fill="none" stroke="url(#gk3)" stroke-width="1.5"/>
+  <path d="M 155 120 Q 175 105 192 120 Q 175 135 155 120"
+        fill="none" stroke="url(#gk3)" stroke-width="1.5"/>
+
+  <!-- Rose center -->
+  <circle cx="200" cy="120" r="8" fill="none" stroke="url(#gk3)" stroke-width="1.5"/>
+  <circle cx="200" cy="120" r="3" fill="#C9A84C" opacity="0.5"/>
+
+  <!-- Collar -->
+  <rect x="190" y="183" width="20" height="10" rx="2" fill="none" stroke="url(#gk3)" stroke-width="2"/>
+
+  <!-- Shaft -->
+  <line x1="200" y1="193" x2="200" y2="310" stroke="url(#gk3)" stroke-width="2.5"/>
+
+  <!-- Key teeth -->
+  <line x1="200" y1="310" x2="225" y2="310" stroke="url(#gk3)" stroke-width="2.5"/>
+  <line x1="225" y1="310" x2="225" y2="295" stroke="url(#gk3)" stroke-width="2.5"/>
+  <line x1="200" y1="285" x2="218" y2="285" stroke="url(#gk3)" stroke-width="2"/>
+  <line x1="218" y1="285" x2="218" y2="275" stroke="url(#gk3)" stroke-width="2"/>
+
+  <!-- Brand name -->
+  <line x1="120" y1="345" x2="280" y2="345" stroke="url(#gkh3)" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="380" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+  <text x="200" y="416" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="300" letter-spacing="10" fill="url(#gk3)">GALI</text>
+
+  <line x1="120" y1="435" x2="280" y2="435" stroke="url(#gkh3)" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="465" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.55">CRAFTED ATTAR</text>
+</svg>

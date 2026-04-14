@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="goldA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="goldFadeA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="25%" stop-color="#C9A84C"/>
+      <stop offset="75%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="lightGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.1"/>
+      <stop offset="70%" stop-color="#C9A84C" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0B0B0F"/>
+
+  <!--
+    THE STORY: Two converging lines form a narrow lane in perspective —
+    "Purani Gali" means "Old Lane." At the end, a doorway with light
+    spilling through. The journey to find something rare and precious.
+    No cultural motifs — pure geometry and light.
+  -->
+
+  <!-- Golden light from the doorway -->
+  <path d="M 188 130 L 162 300 L 238 300 L 212 130 Z" fill="url(#lightGlow)"/>
+
+  <!-- Left wall -->
+  <line x1="148" y1="300" x2="188" y2="115" stroke="url(#goldA)" stroke-width="1.5"/>
+
+  <!-- Right wall -->
+  <line x1="252" y1="300" x2="212" y2="115" stroke="url(#goldA)" stroke-width="1.5"/>
+
+  <!-- Doorway — simple rectangular opening -->
+  <rect x="188" y="115" width="24" height="65" fill="none" stroke="url(#goldA)" stroke-width="1.2"/>
+
+  <!-- Warm glow dot inside doorway -->
+  <circle cx="200" cy="142" r="2" fill="#D4B85C" opacity="0.6"/>
+
+  <!-- Ground line -->
+  <line x1="148" y1="300" x2="252" y2="300" stroke="#C9A84C" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- ===== Brand name ===== -->
+  <line x1="130" y1="338" x2="270" y2="338" stroke="url(#goldFadeA)" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="373" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+  <text x="200" y="407" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="300" letter-spacing="10" fill="url(#goldA)">GALI</text>
+
+  <line x1="130" y1="425" x2="270" y2="425" stroke="url(#goldFadeA)" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="455" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.5">PURE ESSENCE ATTAR</text>
+</svg>

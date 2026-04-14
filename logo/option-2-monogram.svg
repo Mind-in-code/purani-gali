@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="50%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="250" cy="220" r="140"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#0B0B0F"/>
+
+  <!-- Outer circle - thin gold ring -->
+  <circle cx="250" cy="220" r="150" fill="none" stroke="#C9A84C" stroke-width="0.75" opacity="0.4"/>
+
+  <!-- Inner circle - gold ring -->
+  <circle cx="250" cy="220" r="140" fill="none" stroke="url(#goldGrad2)" stroke-width="1.5"/>
+
+  <!-- Monogram P -->
+  <text x="210" y="255" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="120" font-weight="400" fill="url(#goldGrad2)" opacity="0.9">P</text>
+
+  <!-- Monogram G overlapping -->
+  <text x="295" y="255" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="120" font-weight="300" fill="#FFFFF0" opacity="0.85">G</text>
+
+  <!-- Small diamond separator -->
+  <rect x="247" y="290" width="6" height="6" transform="rotate(45 250 293)" fill="#C9A84C" opacity="0.6"/>
+
+  <!-- Decorative dots on circle -->
+  <circle cx="250" cy="70" r="2.5" fill="#C9A84C" opacity="0.7"/>
+  <circle cx="250" cy="370" r="2.5" fill="#C9A84C" opacity="0.7"/>
+  <circle cx="100" cy="220" r="2.5" fill="#C9A84C" opacity="0.7"/>
+  <circle cx="400" cy="220" r="2.5" fill="#C9A84C" opacity="0.7"/>
+
+  <!-- Brand name below -->
+  <text x="250" y="410" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="300" letter-spacing="10" fill="#C9A84C">PURANI GALI</text>
+
+  <!-- Tagline -->
+  <text x="250" y="440" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.7">ATTAR</text>
+</svg>

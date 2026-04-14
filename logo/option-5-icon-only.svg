@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="goldGrad5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="50%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <radialGradient id="glowGrad5" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="#0B0B0F"/>
+
+  <!-- Subtle glow -->
+  <circle cx="200" cy="185" r="120" fill="url(#glowGrad5)"/>
+
+  <!-- Octagonal border (Islamic geometric reference) -->
+  <polygon points="200,60 275,95 310,170 310,230 275,305 200,340 125,305 90,230 90,170 125,95"
+           fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.3"/>
+
+  <!-- Inner octagon -->
+  <polygon points="200,75 268,107 300,175 300,225 268,293 200,325 132,293 100,225 100,175 132,107"
+           fill="none" stroke="url(#goldGrad5)" stroke-width="1.5"/>
+
+  <!-- Attar drop shape - central icon -->
+  <path d="M 190 135 L 190 118 Q 190 110 200 110 Q 210 110 210 118 L 210 135
+           Q 230 148 238 175 Q 245 210 232 240 Q 218 268 200 275
+           Q 182 268 168 240 Q 155 210 162 175 Q 170 148 190 135 Z"
+        fill="none" stroke="url(#goldGrad5)" stroke-width="1.8"/>
+
+  <!-- Inner drop essence -->
+  <ellipse cx="200" cy="200" rx="18" ry="28" fill="#C9A84C" opacity="0.06"/>
+
+  <!-- Small ornamental dot at drop peak -->
+  <circle cx="200" cy="107" r="2.5" fill="#C9A84C"/>
+
+  <!-- Tiny radiating lines from dot -->
+  <line x1="200" y1="100" x2="200" y2="96" stroke="#C9A84C" stroke-width="0.75" opacity="0.5"/>
+  <line x1="194" y1="103" x2="191" y2="100" stroke="#C9A84C" stroke-width="0.75" opacity="0.5"/>
+  <line x1="206" y1="103" x2="209" y2="100" stroke="#C9A84C" stroke-width="0.75" opacity="0.5"/>
+
+  <!-- Brand initials inside drop -->
+  <text x="200" y="215" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="400" letter-spacing="3" fill="url(#goldGrad5)" opacity="0.7">PG</text>
+
+  <!-- Brand name below -->
+  <text x="200" y="370" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="300" letter-spacing="8" fill="#C4A882" opacity="0.6">PURANI GALI</text>
+</svg>

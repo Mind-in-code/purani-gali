@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <defs>
+    <linearGradient id="goldGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad3h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="20%" stop-color="#C9A84C"/>
+      <stop offset="80%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="600" fill="#0B0B0F"/>
+
+  <!-- Mughal arch shape - representing "Purani Gali" (Old Lane) heritage -->
+  <path d="M 150 380 L 150 200 Q 150 100 250 80 Q 350 100 350 200 L 350 380"
+        fill="none" stroke="url(#goldGrad3)" stroke-width="1.5"/>
+
+  <!-- Inner arch -->
+  <path d="M 170 380 L 170 210 Q 170 120 250 102 Q 330 120 330 210 L 330 380"
+        fill="none" stroke="#C9A84C" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Attar drop/vessel silhouette inside arch -->
+  <path d="M 240 170 L 240 155 Q 240 148 250 148 Q 260 148 260 155 L 260 170
+           Q 275 180 280 200 Q 285 225 275 250 Q 265 275 250 280
+           Q 235 275 225 250 Q 215 225 220 200 Q 225 180 240 170 Z"
+        fill="none" stroke="url(#goldGrad3)" stroke-width="1.2"/>
+
+  <!-- Drop highlight -->
+  <ellipse cx="250" cy="215" rx="12" ry="18" fill="#C9A84C" opacity="0.08"/>
+
+  <!-- Small dot at top of drop -->
+  <circle cx="250" cy="145" r="2" fill="#C9A84C" opacity="0.8"/>
+
+  <!-- Horizontal line separators -->
+  <line x1="165" y1="330" x2="335" y2="330" stroke="url(#goldGrad3h)" stroke-width="0.5"/>
+
+  <!-- Brand name inside arch -->
+  <text x="250" y="360" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+
+  <text x="250" y="395" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="300" letter-spacing="8" fill="url(#goldGrad3)">GALI</text>
+
+  <!-- Bottom decorative element -->
+  <line x1="165" y1="415" x2="335" y2="415" stroke="url(#goldGrad3h)" stroke-width="0.5"/>
+
+  <!-- Small star/flower motif -->
+  <g transform="translate(250, 445)" opacity="0.6">
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#C9A84C" stroke-width="0.75"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#C9A84C" stroke-width="0.75"/>
+    <line x1="-5.5" y1="-5.5" x2="5.5" y2="5.5" stroke="#C9A84C" stroke-width="0.75"/>
+    <line x1="5.5" y1="-5.5" x2="-5.5" y2="5.5" stroke="#C9A84C" stroke-width="0.75"/>
+    <circle cx="0" cy="0" r="2" fill="#C9A84C"/>
+  </g>
+
+  <!-- Tagline -->
+  <text x="250" y="485" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="300" letter-spacing="6" fill="#C4A882" opacity="0.7">PURE ESSENCE ATTAR</text>
+</svg>

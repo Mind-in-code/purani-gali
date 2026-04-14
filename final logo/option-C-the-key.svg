@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="goldC" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="goldFadeC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="25%" stop-color="#C9A84C"/>
+      <stop offset="75%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <radialGradient id="keyGlow" cx="50%" cy="35%" r="30%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0B0B0F"/>
+
+  <!--
+    THE STORY: An ornate old key.
+    Every attar shop in a purani gali was behind a heavy wooden door
+    opened with a hand-forged key. This key unlocks not just a door
+    but centuries of fragrance — scent memories passed down through
+    generations. The circular head of the key mirrors a rose,
+    the flower most sacred to attar-making.
+  -->
+
+  <!-- Glow -->
+  <circle cx="200" cy="155" r="90" fill="url(#keyGlow)"/>
+
+  <!-- Key head — ornate circle with rose-like inner pattern -->
+  <circle cx="200" cy="135" r="45" fill="none" stroke="url(#goldC)" stroke-width="1.5"/>
+  <circle cx="200" cy="135" r="38" fill="none" stroke="#C9A84C" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Rose-like petals inside the key head (simplified, geometric) -->
+  <!-- Top petal -->
+  <path d="M 200 105 Q 210 118 200 130 Q 190 118 200 105" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+  <!-- Right petal -->
+  <path d="M 230 135 Q 217 145 205 135 Q 217 125 230 135" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+  <!-- Bottom petal -->
+  <path d="M 200 165 Q 190 152 200 140 Q 210 152 200 165" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+  <!-- Left petal -->
+  <path d="M 170 135 Q 183 125 195 135 Q 183 145 170 135" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Center of the rose/key -->
+  <circle cx="200" cy="135" r="5" fill="none" stroke="url(#goldC)" stroke-width="1"/>
+  <circle cx="200" cy="135" r="1.5" fill="#C9A84C" opacity="0.5"/>
+
+  <!-- Key shaft — straight, elegant -->
+  <line x1="200" y1="180" x2="200" y2="295" stroke="url(#goldC)" stroke-width="1.5"/>
+
+  <!-- Small collar where shaft meets head -->
+  <rect x="194" y="178" width="12" height="6" rx="1" fill="none" stroke="url(#goldC)" stroke-width="1"/>
+
+  <!-- Key teeth — two simple notches at the bottom -->
+  <line x1="200" y1="295" x2="215" y2="295" stroke="url(#goldC)" stroke-width="1.5"/>
+  <line x1="215" y1="295" x2="215" y2="285" stroke="url(#goldC)" stroke-width="1.5"/>
+  <line x1="200" y1="280" x2="210" y2="280" stroke="url(#goldC)" stroke-width="1.5"/>
+  <line x1="210" y1="280" x2="210" y2="272" stroke="url(#goldC)" stroke-width="1.5"/>
+
+  <!-- ===== Brand name ===== -->
+  <line x1="130" y1="330" x2="270" y2="330" stroke="url(#goldFadeC)" stroke-width="0.5" opacity="0.4"/>
+
+  <text x="200" y="365" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+  <text x="200" y="399" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="300" letter-spacing="10" fill="url(#goldC)">GALI</text>
+
+  <line x1="130" y1="418" x2="270" y2="418" stroke="url(#goldFadeC)" stroke-width="0.5" opacity="0.4"/>
+
+  <text x="200" y="448" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.5">PURE ESSENCE ATTAR</text>
+</svg>

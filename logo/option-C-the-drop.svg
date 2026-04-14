@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="goldC" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="goldFadeC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="25%" stop-color="#C9A84C"/>
+      <stop offset="75%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <radialGradient id="dropGlow" cx="50%" cy="55%" r="30%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="none"/>
+
+  <!-- Glow -->
+  <circle cx="200" cy="190" r="90" fill="url(#dropGlow)"/>
+
+  <!-- Outer drop — base note -->
+  <path d="M 200 85
+           Q 170 140 158 180
+           Q 145 225 155 258
+           Q 165 290 185 305
+           Q 200 315 200 315
+           Q 200 315 215 305
+           Q 235 290 245 258
+           Q 255 225 242 180
+           Q 230 140 200 85 Z"
+        fill="none" stroke="url(#goldC)" stroke-width="1.5"/>
+
+  <!-- Middle drop — heart note -->
+  <path d="M 200 140
+           Q 182 172 175 198
+           Q 168 225 175 248
+           Q 182 268 195 278
+           Q 200 282 200 282
+           Q 200 282 205 278
+           Q 218 268 225 248
+           Q 232 225 225 198
+           Q 218 172 200 140 Z"
+        fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Inner drop — top note -->
+  <path d="M 200 185
+           Q 192 202 188 215
+           Q 184 230 188 242
+           Q 192 252 198 257
+           Q 200 258 200 258
+           Q 200 258 202 257
+           Q 208 252 212 242
+           Q 216 230 212 215
+           Q 208 202 200 185 Z"
+        fill="none" stroke="#C9A84C" stroke-width="0.6" opacity="0.25"/>
+
+  <!-- Essence dot -->
+  <circle cx="200" cy="232" r="2" fill="#C9A84C" opacity="0.3"/>
+
+  <!-- Brand name -->
+  <line x1="130" y1="348" x2="270" y2="348" stroke="url(#goldFadeC)" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="383" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+  <text x="200" y="417" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="300" letter-spacing="10" fill="url(#goldC)">GALI</text>
+
+  <line x1="130" y1="435" x2="270" y2="435" stroke="url(#goldFadeC)" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="465" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.5">PURE ESSENCE ATTAR</text>
+</svg>

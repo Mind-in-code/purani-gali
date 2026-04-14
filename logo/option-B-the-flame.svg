@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="goldB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4B85C"/>
+      <stop offset="100%" stop-color="#A8893A"/>
+    </linearGradient>
+    <linearGradient id="goldFadeB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="25%" stop-color="#C9A84C"/>
+      <stop offset="75%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <radialGradient id="flameGlow" cx="50%" cy="55%" r="25%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0B0B0F"/>
+
+  <!--
+    THE STORY: Attar is born from distillation — heat transforms
+    petals into pure oil. A single flame, and a single drop.
+    The simplest equation: fire becomes fragrance.
+  -->
+
+  <!-- Glow -->
+  <circle cx="200" cy="185" r="80" fill="url(#flameGlow)"/>
+
+  <!-- The flame — clean, minimal -->
+  <path d="M 200 100
+           Q 204 115 215 138
+           Q 228 165 226 190
+           Q 224 215 215 228
+           Q 206 242 200 248
+           Q 194 242 185 228
+           Q 176 215 174 190
+           Q 172 165 185 138
+           Q 196 115 200 100 Z"
+        fill="none" stroke="url(#goldB)" stroke-width="1.5"/>
+
+  <!-- Inner flame -->
+  <path d="M 200 155
+           Q 203 163 208 175
+           Q 214 190 212 205
+           Q 210 218 205 224
+           Q 202 228 200 230
+           Q 198 228 195 224
+           Q 190 218 188 205
+           Q 186 190 192 175
+           Q 197 163 200 155 Z"
+        fill="none" stroke="#C9A84C" stroke-width="0.7" opacity="0.35"/>
+
+  <!-- The drop — born from the flame -->
+  <path d="M 200 270 Q 194 278 194 284 Q 194 292 200 296 Q 206 292 206 284 Q 206 278 200 270 Z"
+        fill="none" stroke="url(#goldB)" stroke-width="1.2"/>
+
+  <!-- Tiny connecting trail -->
+  <line x1="200" y1="250" x2="200" y2="270" stroke="#C9A84C" stroke-width="0.5" opacity="0.2" stroke-dasharray="2 3"/>
+
+  <!-- ===== Brand name ===== -->
+  <line x1="130" y1="333" x2="270" y2="333" stroke="url(#goldFadeB)" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="368" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" letter-spacing="8" fill="#FFFFF0">PURANI</text>
+  <text x="200" y="402" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="300" letter-spacing="10" fill="url(#goldB)">GALI</text>
+
+  <line x1="130" y1="420" x2="270" y2="420" stroke="url(#goldFadeB)" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="200" y="450" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" font-weight="300" letter-spacing="5" fill="#C4A882" opacity="0.5">PURE ESSENCE ATTAR</text>
+</svg>

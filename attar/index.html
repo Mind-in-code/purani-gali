@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Purani Gali — Crafted Attar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo" aria-label="Purani Gali Home">
+      <svg class="nav-logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Purani Gali logo mark">
+        <defs>
+          <linearGradient id="glowN" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#F0C842" stop-opacity="0.18"/><stop offset="70%" stop-color="#F0C842" stop-opacity="0.04"/><stop offset="100%" stop-color="#F0C842" stop-opacity="0"/></linearGradient>
+        </defs>
+        <path d="M 190 148 L 160 300 L 240 300 L 210 148 Z" fill="url(#glowN)"/>
+        <line x1="145" y1="300" x2="190" y2="118" stroke="#F0C842" stroke-width="1.5"/>
+        <line x1="255" y1="300" x2="210" y2="118" stroke="#F0C842" stroke-width="1.5"/>
+        <line x1="190" y1="178" x2="190" y2="118" stroke="#F0C842" stroke-width="1.2"/>
+        <line x1="210" y1="178" x2="210" y2="118" stroke="#F0C842" stroke-width="1.2"/>
+        <line x1="190" y1="178" x2="210" y2="178" stroke="#F0C842" stroke-width="1.2"/>
+        <path d="M 190 118 A 10 10 0 0 1 210 118" fill="none" stroke="#F0C842" stroke-width="1.2"/>
+        <circle cx="200" cy="145" r="2.5" fill="#F0C842" opacity="0.75"/>
+      </svg>
+      <div class="nav-brand">
+        <span class="nav-brand-name">PURANI GALI</span>
+        <span class="nav-brand-tagline">CRAFTED ATTAR</span>
+      </div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#collection">Collection</a>
+      <a href="#story">Story</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#collection" class="btn-primary nav-cta">Shop Now</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bottle">
+      <img src="assets/images/attar-bottle.jpeg" alt="Purani Gali attar bottle — 10ml pure oil" />
+      <span class="hero-bottle-label">10ml · PURE OIL</span>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag"><span class="hero-tag-line"></span> HANDCRAFTED · NO ALCOHOL</p>
+      <h1 class="hero-title">Essence of<br>the East</h1>
+      <p class="hero-notes">SAFFRON · ROSE OUD · AGARWOOD</p>
+      <p class="hero-desc">A rare composition drawn from ancient perfume routes of Arabia. Warm, deep, and unmistakably timeless.</p>
+      <div class="hero-actions">
+        <a href="#collection" class="btn-primary">Add to Cart</a>
+        <a href="#collection" class="btn-secondary">Explore All</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ===== FRAGRANCE NOTES BAR ===== -->
+  <section class="notes-bar">
+    <div class="notes-grid">
+      <div class="note-col">
+        <span class="note-label note-label--top">TOP NOTE</span>
+        <span class="note-name">Saffron</span>
+        <span class="note-sub">Bergamot · Cardamom</span>
+      </div>
+      <div class="note-col">
+        <span class="note-label note-label--heart">HEART NOTE</span>
+        <span class="note-name">Rose Oud</span>
+        <span class="note-sub">Jasmine · Iris</span>
+      </div>
+      <div class="note-col">
+        <span class="note-label note-label--base">BASE NOTE</span>
+        <span class="note-name">Agarwood</span>
+        <span class="note-sub">Musk · Amber</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ===== COLLECTION SECTION ===== -->
+  <section class="section collection" id="collection">
+    <div class="collection-header">
+      <h2 class="section-title">The Collection</h2>
+      <a href="#" class="view-all">VIEW ALL</a>
+    </div>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="assets/images/attar-bottle.jpeg" alt="Oud Royale attar" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Oud Royale</h3>
+          <p class="product-desc">Agarwood · Amber · Musk</p>
+          <div class="product-footer">
+            <span class="product-price">&#8377;2,499</span>
+            <a href="#" class="btn-buy">BUY</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card bestseller">
+        <div class="product-image">
+          <span class="card-badge badge-bestseller">BESTSELLER</span>
+          <img src="assets/images/attar-bottle.jpeg" alt="Rose de Nuit attar" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Rose de Nuit</h3>
+          <p class="product-desc">Rose · Sandalwood · Vanilla</p>
+          <div class="product-footer">
+            <span class="product-price">&#8377;1,999</span>
+            <a href="#" class="btn-buy">BUY</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+          <span class="card-badge badge-new">NEW</span>
+          <img src="assets/images/attar-bottle.jpeg" alt="Saffron Noir attar" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Saffron Noir</h3>
+          <p class="product-desc">Saffron · Patchouli · Oud</p>
+          <div class="product-footer">
+            <span class="product-price">&#8377;3,299</span>
+            <a href="#" class="btn-buy">BUY</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-brand">Purani Gali · Est. 2025</span>
+      <div class="footer-center">
+        <button class="footer-scroll-top" aria-label="Scroll to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9BAAA0" stroke-width="1.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        </button>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Shipping</a>
+        <a href="#">Returns</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
